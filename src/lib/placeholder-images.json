@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "portfolio-1",
+      "description": "A dashboard UI for a tech company",
+      "imageUrl": "https://images.unsplash.com/photo-1653933686802-86d21b59b03b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NTkxMzY2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dashboard ui"
+    },
+    {
+      "id": "portfolio-2",
+      "description": "A mobile application interface",
+      "imageUrl": "https://images.unsplash.com/photo-1601972599720-36938d4ecd31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzU5MTYwNTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "portfolio-3",
+      "description": "E-commerce website on a laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDB8fHx8MTc1OTE1ODU5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ecommerce website"
+    },
+    {
+      "id": "portfolio-4",
+      "description": "Cloud infrastructure diagram",
+      "imageUrl": "https://images.unsplash.com/photo-1730148005786-aa765c8ed5a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjbG91ZCUyMGluZnJhc3RydWN0dXJlfGVufDB8fHx8MTc1OTE5MTk3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cloud infrastructure"
+    },
+    {
+      "id": "contact-map",
+      "description": "A stylized map showing a location",
+      "imageUrl": "https://images.unsplash.com/photo-1581922819941-6ab31ab79afc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc1OTE3MTkxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
 }
