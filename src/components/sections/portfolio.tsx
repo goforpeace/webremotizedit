@@ -10,7 +10,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import ElectricBorder from "../ElectricBorder";
 
 const portfolioItems = [
   {
@@ -62,8 +61,7 @@ export function Portfolio() {
               return (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1 h-full">
-                    <ElectricBorder color="hsl(var(--accent))" thickness={1} style={{ borderRadius: 'var(--radius)' }} className="h-full">
-                      <Card className="overflow-hidden h-full flex flex-col bg-card/50 border-transparent">
+                      <Card className="overflow-hidden h-full flex flex-col bg-card/50 border-primary/20">
                         {image && (
                            <Image
                               src={image.imageUrl}
@@ -82,7 +80,6 @@ export function Portfolio() {
                           <p className="text-sm text-muted-foreground">{item.description}</p>
                         </CardContent>
                       </Card>
-                    </ElectricBorder>
                   </div>
                 </CarouselItem>
               );
