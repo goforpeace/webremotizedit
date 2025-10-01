@@ -27,14 +27,15 @@ export function Hero() {
       </Suspense>
       <div className="absolute inset-0 z-1 bg-gradient-to-b from-transparent via-transparent to-background" />
       <div className="relative z-10 container max-w-4xl px-4">
-        <SplitText
-            tag="h1"
-            text="Powering Your Business with Smart IT Solutions"
-            className="text-4xl md:text-6xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-foreground to-foreground/70 mb-6"
-            splitType="chars, words"
-            duration={0.8}
-            delay={30}
-          />
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
+          <SplitText
+              text="Powering Your Business with Smart IT Solutions"
+              className="text-transparent bg-clip-text bg-gradient-to-b from-foreground to-foreground/70"
+              splitType="chars, words"
+              duration={0.8}
+              delay={30}
+            />
+        </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
           24/7 Remote IT Management | Cybersecurity | Development | Consultancy
         </p>

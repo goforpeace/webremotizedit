@@ -77,7 +77,7 @@ const SplitText = ({
         autoSplit: splitType === 'lines',
         linesClass: 'split-line',
         wordsClass: 'split-word',
-        charsClass: 'split-char',
+        charsClass: `split-char ${className}`,
         reduceWhiteSpace: false,
         onSplit: self => {
           assignTargets(self);
@@ -149,7 +149,7 @@ const SplitText = ({
       wordWrap: 'break-word',
       willChange: 'transform, opacity'
     };
-    const classes = `split-parent ${className}`;
+    const classes = `split-parent`;
     switch (tag) {
       case 'h1':
         return (
