@@ -23,7 +23,11 @@
     --border: 220 13% 91%;
     --input: 220 13% 91%;
     --ring: 180 100% 50%;
-    --radius: 0.5rem;
+
+    --color-1: hsl(var(--primary));
+    --color-2: hsl(var(--accent));
+    --color-3: hsl(var(--secondary));
+    --color-4: hsl(190, 100%, 60%);
   }
  
   .dark {
