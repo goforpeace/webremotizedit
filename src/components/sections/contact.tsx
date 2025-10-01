@@ -15,7 +15,7 @@ export function Contact() {
               <h2 className="text-3xl md:text-4xl font-bold">Contact Us</h2>
               <p className="text-muted-foreground mt-2">Let's build the future of your IT together.</p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-5xl mx-auto">
               <ContactForm />
               <div className="rounded-lg overflow-hidden h-full min-h-[400px]">
                 {mapImage && (

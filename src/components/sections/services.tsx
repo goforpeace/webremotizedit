@@ -37,7 +37,7 @@ export function Services() {
           <h2 className="text-3xl md:text-4xl font-bold">Our Services</h2>
           <p className="text-muted-foreground mt-2">Comprehensive tech solutions for the modern business.</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {services.map((service, index) => (
             <Card key={index} className="bg-card/50 backdrop-blur-sm border-primary/10 h-full shadow-lg">
               <CardHeader>

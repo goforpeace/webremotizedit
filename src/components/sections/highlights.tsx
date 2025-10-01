@@ -24,7 +24,7 @@ export function Highlights() {
   return (
     <section className="py-12 md:py-24 bg-background">
       <div className="container">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
           {highlights.map((highlight) => (
             <Card key={highlight.title} className="bg-transparent border-0 shadow-none text-center">
               <CardContent className="flex flex-col items-center justify-center p-6 gap-4">
