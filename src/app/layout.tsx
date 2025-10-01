@@ -7,7 +7,7 @@ import { ChatbotCta } from '@/components/chatbot-cta';
 import SplashCursor from '@/components/SplashCursor';
 
 export const metadata: Metadata = {
-  title: 'RemoteTech Nexus',
+  title: 'Remotized IT',
   description: 'Powering Your Business with Smart IT Solutions',
 };
 
