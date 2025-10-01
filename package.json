@@ -54,7 +54,9 @@
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.24.2",
-    "ogl": "https://registry.npmjs.org/ogl/-/ogl-0.0.109.tgz"
+    "ogl": "https://registry.npmjs.org/ogl/-/ogl-0.0.109.tgz",
+    "@gsap/react": "^2.1.1",
+    "gsap": "^3.12.5"
   },
   "devDependencies": {
     "@types/node": "^20",
