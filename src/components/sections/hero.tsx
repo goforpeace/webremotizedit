@@ -3,8 +3,8 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Suspense } from "react";
-import LightRays from '../LightRays';
 import SplitText from "../SplitText";
+import Prism from "../Prism";
 
 
 export function Hero() {
@@ -12,16 +12,16 @@ export function Hero() {
     <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-center overflow-hidden">
       <Suspense fallback={<div className="absolute inset-0 z-0 bg-background" />}>
         <div className="absolute inset-0 z-0">
-          <LightRays
-            raysOrigin="top-center"
-            raysColor="#00ffff"
-            raysSpeed={1.5}
-            lightSpread={0.8}
-            rayLength={1.2}
-            followMouse={true}
-            mouseInfluence={0.1}
-            noiseAmount={0.1}
-            distortion={0.05}
+          <Prism
+            animationType="rotate"
+            timeScale={0.5}
+            height={3.5}
+            baseWidth={5.5}
+            scale={3.6}
+            hueShift={0}
+            colorFrequency={1}
+            noise={0.5}
+            glow={1}
           />
         </div>
       </Suspense>
@@ -34,6 +34,7 @@ export function Hero() {
               splitType="chars, words"
               duration={0.8}
               delay={30}
+              tag="h1"
             />
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
