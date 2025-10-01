@@ -3,12 +3,26 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Suspense } from "react";
+import LightRays from '../LightRays';
+
 
 export function Hero() {
   return (
     <section className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center text-center overflow-hidden">
-      <Suspense fallback={<div className="animated-grid-background absolute inset-0 z-0" />}>
-        <div className="animated-grid-background absolute inset-0 z-0" />
+      <Suspense fallback={<div className="absolute inset-0 z-0 bg-background" />}>
+        <div className="absolute inset-0 z-0">
+          <LightRays
+            raysOrigin="top-center"
+            raysColor="#00ffff"
+            raysSpeed={1.5}
+            lightSpread={0.8}
+            rayLength={1.2}
+            followMouse={true}
+            mouseInfluence={0.1}
+            noiseAmount={0.1}
+            distortion={0.05}
+          />
+        </div>
       </Suspense>
       <div className="absolute inset-0 z-1 bg-gradient-to-b from-transparent via-transparent to-background" />
       <div className="relative z-10 container max-w-4xl px-4">
