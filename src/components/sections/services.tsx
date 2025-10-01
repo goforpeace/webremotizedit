@@ -1,5 +1,6 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Monitor, Shield, Smartphone, Briefcase, Wrench } from "lucide-react";
+import ElectricBorder from "../ElectricBorder";
 
 const services = [
   {
@@ -39,15 +40,17 @@ export function Services() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <Card key={index} className="bg-card/50 backdrop-blur-sm border-border/50 transition-all duration-300 hover:border-primary hover:shadow-[0_0_20px_theme(colors.primary.DEFAULT)] hover:scale-105">
-              <CardHeader>
-                {service.icon}
-                <CardTitle>{service.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>{service.description}</CardDescription>
-              </CardContent>
-            </Card>
+            <ElectricBorder key={index} color="hsl(var(--accent))" thickness={1} style={{ borderRadius: 'var(--radius)' }}>
+              <Card className="bg-card/50 backdrop-blur-sm border-transparent h-full">
+                <CardHeader>
+                  {service.icon}
+                  <CardTitle>{service.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription>{service.description}</CardDescription>
+                </CardContent>
+              </Card>
+            </ElectricBorder>
           ))}
         </div>
       </div>
