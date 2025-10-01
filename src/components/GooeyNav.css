@@ -118,15 +118,6 @@
 
 .gooey-nav-container .effect.filter {
   filter: url(#gooey-nav-filter);
-  mix-blend-mode: lighten;
-}
-
-.gooey-nav-container .effect.filter::before {
-  content: '';
-  position: absolute;
-  inset: -75px;
-  z-index: -2;
-  background: hsl(var(--background));
 }
 
 .gooey-nav-container .effect.filter::after {
