@@ -43,7 +43,7 @@ export function Portfolio() {
 
   return (
     <section id="portfolio" className="py-12 md:py-24 bg-background">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Our Portfolio</h2>
           <p className="text-muted-foreground mt-2">A glimpse into our successful projects and client collaborations.</p>
