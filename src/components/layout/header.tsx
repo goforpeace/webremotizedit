@@ -8,6 +8,7 @@ import GooeyNav from "../GooeyNav";
 import { useState, useEffect } from "react";
 
 const navLinks = [
+  { href: "#", label: "Home" },
   { href: "#services", label: "Services" },
   { href: "#portfolio", label: "Portfolio" },
   { href: "#testimonials", label: "Testimonials" },
