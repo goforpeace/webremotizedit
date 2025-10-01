@@ -40,7 +40,7 @@ export function Services() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <ElectricBorder key={index} color="hsl(var(--accent))" thickness={1} style={{ borderRadius: 'var(--radius)' }}>
+            <ElectricBorder key={index} color="hsl(var(--accent))" thickness={1} style={{ borderRadius: 'var(--radius)' }} suspendWhenOffscreen>
               <Card className="bg-card/50 backdrop-blur-sm border-transparent h-full">
                 <CardHeader>
                   {service.icon}
